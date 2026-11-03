@@ -1,0 +1,11 @@
+node_modules/
+dist/
+scene.json
+latest.png
+*.log
+
+# 运行时数据、备份、截图，不进仓库
+backups/
+*.bak
+.netstat.txt
+dsh-port.txt

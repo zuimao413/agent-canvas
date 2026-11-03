@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Canvas</title>
+    <style>
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: #151517; }
+
+
+      /* 临时提示：状态条下面浮出来，2 秒左右自己消失 */
+      #toast {
+        position: fixed; top: 56px; right: 130px;
+        transform: translateY(-6px);
+        z-index: 20;
+        font: 14px/1.5 system-ui, sans-serif; color: #fff;
+        background: rgba(26,26,28,.95);
+        padding: 8px 18px; border-radius: 999px;
+        box-shadow: 0 6px 18px rgba(0,0,0,.38);
+        pointer-events: none; white-space: nowrap;
+        max-width: 70vw; overflow: hidden; text-overflow: ellipsis;
+        opacity: 0; transition: opacity .16s ease, transform .16s ease;
+      }
+      #toast.show { opacity: 1; transform: translateY(0); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="toast"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

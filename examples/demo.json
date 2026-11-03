@@ -1,0 +1,23 @@
+[
+  { "kind": "text", "x": 60, "y": 40, "text": "Agent Canvas", "size": 44, "color": "#212529" },
+  { "kind": "text", "x": 62, "y": 104, "text": "one board, two pens, no file passing", "size": 20, "color": "#868e96" },
+
+  { "kind": "rect", "x": 60, "y": 170, "w": 250, "h": 142, "color": "#1971c2" },
+  { "kind": "text", "x": 84, "y": 192, "text": "You draw", "size": 30, "color": "#1864ab" },
+  { "kind": "text", "x": 84, "y": 238, "text": "Excalidraw, in\nyour browser", "size": 17, "color": "#495057" },
+
+  { "kind": "rect", "x": 400, "y": 170, "w": 250, "h": 142, "color": "#f08c00" },
+  { "kind": "text", "x": 424, "y": 192, "text": "One scene", "size": 30, "color": "#e67700" },
+  { "kind": "text", "x": 424, "y": 238, "text": "server keeps the\nelements, SSE pushes", "size": 17, "color": "#495057" },
+
+  { "kind": "rect", "x": 740, "y": 170, "w": 250, "h": 142, "color": "#2f9e44" },
+  { "kind": "text", "x": 764, "y": 192, "text": "Agent draws", "size": 30, "color": "#2b8a3e" },
+  { "kind": "text", "x": 764, "y": 238, "text": "POST /api/elements\nsource=me", "size": 17, "color": "#495057" },
+
+  { "kind": "arrow", "points": [[320, 235], [390, 235]], "color": "#868e96" },
+  { "kind": "arrow", "points": [[660, 235], [730, 235]], "color": "#868e96" },
+
+  { "kind": "text", "x": 60, "y": 350, "text": "Tabs across the top are topics. Each topic keeps its own elements.", "size": 19, "color": "#495057" },
+  { "kind": "text", "x": 60, "y": 388, "text": "Backtick or F9 asks the agent to look at the board.", "size": 19, "color": "#495057" }
+]
+
